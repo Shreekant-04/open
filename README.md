@@ -1,5 +1,18 @@
 
 # Full Stack Project
+## Table of Contents
+1. [Overview](#overview)
+2. [Project Structure](#project-structure)
+   - [Frontend](#frontend)
+   - [Backend](#backend)
+3. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Cloning and Running the Project](#cloning-and-running-the-project)
+4. [Deployment](#deployment)
+5. [Contributing](#contributing)
+<!-- 6. [License](#license) -->
+
+---
 
 ## Overview
 
@@ -38,7 +51,7 @@ Key files and directories in the backend:
 ## Getting Started
 
 ### Prerequisites
-- **Node.js** (version 16.x or later recommended)
+- **Node.js** (version 20.x or later recommended)
 - **NPM** or **Yarn**
 - A compatible database (if required, based on the backend configuration)
 
@@ -48,12 +61,12 @@ Key files and directories in the backend:
 
 ### Clone the Repository
 ```bash
-git clone <repository_url>
+git clone https://github.com/Shreekant-04/quiz-app.git
 ```
 
 Navigate to the project directory:
 ```bash
-cd <project_directory>
+cd quiz-app
 ```
 
 ---
@@ -94,6 +107,10 @@ cd <project_directory>
 
 3. Set up environment variables:
    - Create a `.env` file based on the `.env.example` file (if provided).
+   ```bash
+   Key=<-Your-Key->
+   dburl=<-Your-database-url->
+   ```
 
 4. Start the backend server:
    ```bash
@@ -102,7 +119,7 @@ cd <project_directory>
 
 5. The backend will be accessible at:
    ```
-   http://localhost:3000
+   http://localhost:5000
    ```
 
 ---
