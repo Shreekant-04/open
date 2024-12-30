@@ -1,0 +1,17 @@
+.navBar {
+  @apply h-[10vh] w-screen bg-white border-b-2 flex items-center  justify-between p-4;
+}
+
+.navBar section:nth-child(1) {
+  @apply w-1/4;
+}
+
+.navBar > section > button {
+  @apply mx-4 rounded-xl w-[200px] transition-all duration-200 h-[45px];
+}
+.login {
+  @apply border w-1/4 border-[var(--purple--)] p-2 hover:border-b-8 ;
+}
+.signup {
+  @apply bg-[var(--purple--)] w-1/4  text-white hover:text-black hover:bg-white;
+}

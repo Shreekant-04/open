@@ -1,0 +1,17 @@
+
+
+.heading-Container{
+    @apply h-[25vh] w-full flex flex-col gap-4
+}
+.join-Container{
+    @apply w-screen flex justify-center p-4 h-[50vh]
+}
+.box-Join{
+    @apply flex flex-col w-1/2 justify-evenly items-center p-4 border rounded-lg
+}
+.box-Join input,button{
+    @apply w-[80%] outline-none border p-2 h-[60px] rounded-xl
+}
+.box-Join button{
+    @apply bg-[var(--purple--)] text-white hover:bg-[var(--purple-light--)] transition-all duration-200
+}

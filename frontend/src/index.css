@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+:root{
+  --purple-- : #8A1655;
+  --purple-light-- : #9D2966;
+  --pink-- : #CB2E83
+
+}
